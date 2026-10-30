@@ -1,0 +1,67 @@
+{
+    "FileVersion": 3,
+    "FriendlyName": "Nwiro Integration Kit",
+    "Description": "Connect Claude Code, Codex CLI, Cursor, and Windsurf to Unreal Engine 5 via MCP",
+    "Category": "AI",
+    "CreatedBy": "Nwiro",
+    "CreatedByURL": "https://nwiro.ai",
+    "DocsURL": "https://nwiro.ai/integration-kit",
+    "SupportURL": "https://leartes.atlassian.net/servicedesk/customer/portal/1",
+    "EngineVersion": "5.8.0",
+    "CanContainContent": true,
+    "IsBetaVersion": false,
+    "IsExperimentalVersion": false,
+    "Installed": false,
+    "Plugins": [
+        {
+            "Name": "WebBrowserWidget",
+            "Enabled": true
+        },
+        {
+            "Name": "PythonScriptPlugin",
+            "Enabled": true
+        },
+        {
+            "Name": "EnhancedInput",
+            "Enabled": true
+        },
+        {
+            "Name": "EditorScriptingUtilities",
+            "Enabled": true
+        },
+        {
+            "Name": "Niagara",
+            "Enabled": true
+        },
+        {
+            "Name": "StateTree",
+            "Enabled": true
+        },
+        {
+            "Name": "IKRig",
+            "Enabled": true
+        },
+        {
+            "Name": "PoseSearch",
+            "Enabled": true
+        },
+        {
+            "Name": "PCG",
+            "Enabled": true
+        }
+    ],
+    "Modules": [
+        {
+            "Name": "NwiroIntegrationKit",
+            "Type": "EditorNoCommandlet",
+            "LoadingPhase": "PostEngineInit",
+            "PlatformAllowList": [
+                "Win64",
+                "Linux",
+                "Mac"
+            ]
+        }
+    ],
+    "Version": 10,
+    "VersionName": "1.0.9"
+}
